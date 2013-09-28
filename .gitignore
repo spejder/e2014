@@ -3,11 +3,12 @@
 .sass-cache
 .DS_Store
 
+
 # Ignore paths that contain generated content.
 cache/
 files/
-sites/*/files
-sites/*/private
+*/files
+*/private
 
 # Ignore default text files
 .htaccess
