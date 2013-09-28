@@ -1,0 +1,87 @@
+/*----------------------------------------------------
+
+Styles for E2014.dk website
+Made by: Jesper Jepsen, Johan Thomsen
+Made for Stevninghus spejdercenter(http://stevninghus.dk) for Summer camp 2014
+
+Build on Drupal 7
+
+Creative Commons License
+E2014.dk by Jesper Jepsen is licensed under a 
+Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.
+
+----------------------------------------------------*/
+
+
+/*----------------------------------------------------
+				 Base E2014
+----------------------------------------------------*/
+html{
+	background-color: $white;
+}
+
+/*----------------------------------------------------
+				 Layout E2014
+----------------------------------------------------*/
+//  |					|				|
+//  |					|				|
+//  |					|				|
+//  |					|				|
+//  |-------------------|               |
+//  |		  | 			|				|
+//  |		  | 			|				|
+//  |		  | 		 	|				|
+//  |		  | 			|				|
+//  |		  | 			|				|
+//  |		  | 			|				|
+//  |		  | 			|				|
+
+.e2014-canvas{}
+.e2014-left-wrapper{
+	min-width: 66%;
+	background-color: blue;
+}
+//Main article spans 2 columns
+.e2014-main-article{}
+.e2014-main-article-region{}
+//Columns
+.e2014-center-wrapper{}
+//Left column
+.e2014-left-col{}
+.e2014-left-row{}
+.e2014-left-region{}
+//Right columns, is at the center at the site when viewed in full
+.e2014-center-row{}
+.e2014-center-col{}
+.e2014-center-region{}
+
+//Right Sidebar
+.e2014-right-sidebar-col{
+	min-width: 33%;
+	background-color: red;
+	@include hidde-sidebar;
+}
+.e2014-right-sidebar-row{}
+.e2014-right-sidebar-region{}
+
+
+/*----------------------------------------------------
+				Links E2014
+----------------------------------------------------*/
+
+
+/*----------------------------------------------------
+				Menu E2014
+----------------------------------------------------*/
+
+
+/*----------------------------------------------------
+				Images E2014
+----------------------------------------------------*/
+
+
+/*----------------------------------------------------
+				Content types E2014
+----------------------------------------------------*/
+
+

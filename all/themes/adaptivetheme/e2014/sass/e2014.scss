@@ -1,0 +1,357 @@
+/*----------------------------------------------------
+
+Styles for E2014.dk website
+Made by: Jesper Jepsen, Johan Thomsen
+Made for Stevninghus spejdercenter(http://stevninghus.dk) for Summer camp 2014
+
+Build on Drupal 7
+
+Creative Commons License
+E2014.dk by Jesper Jepsen is licensed under a 
+Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License.
+
+----------------------------------------------------*/
+
+
+/*----------------------------------------------------
+				 Base E2014
+----------------------------------------------------*/
+body{
+	background-color: $white;
+}
+
+/*----------------------------------------------------
+				 Layout E2014
+----------------------------------------------------*/
+#logo{
+	margin-left:1%;
+}
+.panels-flexible-row {
+	padding:0px;
+}
+.panels-flexible-column-inside{
+	padding:0px;
+}
+.panels-flexible-column{
+	padding:0px;
+}
+.e2014-canvas{
+	@include layout-page;
+}
+.e2014-left-wrapper{
+	margin-top:-5rem;
+	@include break-center;
+}
+//Main article spans 2 columns
+.e2014-main-article{
+}
+.e2014-main-article-region{
+}
+//Columns
+.e2014-center-wrapper{
+	
+}
+//Left column
+.e2014-left-col{
+	@include break-line;
+	@include break-split;
+	@include break-center;
+	padding-right: 0.55%
+	
+}
+.e2014-left-row{}
+.e2014-left-region{}
+//Right columns, is at the center at the site when viewed in full
+.e2014-center-col{
+	@include break-line;
+	@include break-center;
+
+}
+.e2014-center-row{
+	}
+.e2014-center-region{}
+//Right Colums
+.e2014-right-col{
+	@include break-line-last;
+	@include break-split-last;
+	@include break-center;
+	
+}
+.e2014-right-row{}
+.e2014-right-region{}
+//Right Sidebar
+.e2014-right-sidebar-col{
+	@include hidde-sidebar;
+	margin-left:1%;
+	min-width:33%;
+	min-height:800px;
+	
+}
+.e2014-right-sidebar-row{}
+.e2014-right-sidebar-region{
+	
+}
+#branding{
+	height:201px;
+	background-image: url("images/wave.png");
+	background-repeat:repeat-x;
+}
+
+
+/*----------------------------------------------------
+				Menu E2014
+----------------------------------------------------*/
+#menu-bar{
+	margin:0px;
+	padding-bottom: 2rem;
+}
+
+nav{
+	padding-left:15rem;
+	margin-top:-2.1rem;
+	//background-color:transparentize(($yellow), 0.5); 
+		li{
+			padding:0 25px;
+		}
+	.menu-block-wrapper{
+		ul{
+			@include josefin(1.4rem);
+			li{
+				@include menulink;
+				letter-spacing:0.15rem;
+			}
+		}
+	}
+}
+/*----------------------------------------------------
+				Forms
+----------------------------------------------------*/
+form{
+		@include josefin(1.1rem);
+		label{
+			width:200px;
+		}
+.form-item{
+}	
+}
+.form-submit[value="Submit"]{
+	@include josefin(1.1rem);
+}
+.form-submit[value="Send"]{
+	@include josefin(1.1rem);
+}
+/*----------------------------------------------------
+				WYSIWYG
+----------------------------------------------------*/
+
+/*----------------------------------------------------
+				Images E2014
+----------------------------------------------------*/
+
+/*----------------------------------------------------
+				Blocks
+----------------------------------------------------*/
+// Footer for page
+.region-footer{
+	height:200px;
+	//@include background-image(linear-gradient($green,$white));
+	background-color: transparentize(($green), 0.1);
+	
+}
+.e2014-lang{
+	@include links($white);
+	ul{
+		li{
+			@include josefin(1.2rem);
+			display:inline;
+			padding-right: 1rem;
+		}
+	}
+	@include menulink;
+	padding-right:2rem;
+	margin-bottom: -5rem;
+	float:right;
+}
+.e2014-fb{
+	margin-top: -10rem;
+  padding-right: 3rem;
+	float:right;
+	img{
+
+		padding-top:0.5rem;
+	}
+}
+
+/*----------------------------------------------------
+				Views
+----------------------------------------------------*/
+.field-name-title [property="dc:title"]{
+	@include josefin-semi(1.5rem);
+}
+.pane-node-title{
+	@include josefin-semi(1.5rem);
+	padding-bottom: 0.5rem;
+}
+.ds-2col-stacked-fluid {
+	.group-left{
+		float:left;
+		width:32%;
+		padding-right:3%;
+	}
+	.group-right{
+		float: left;
+		width:65%;
+	}
+}
+.pane-frontpage-news{
+	.pane-title{
+		@include links($red);
+		margin-top:-3.3rem;
+		padding-left: 1rem;
+		}
+}
+.view-frontpage-news{
+	@include border ($yellow);
+}
+#e2014-newslist{
+	h2{
+			padding-left:1rem;
+		}
+	.block-title{
+		color:$red;
+	}
+}
+.e2014-newslist-hidde{
+	@include hidde-center;
+}
+.pane-title {
+	//color:$white;
+	margin-bottom: -2.5rem;
+
+}
+#e2014-signup{
+	margin-bottom: 2rem;
+	.pane-title{
+		@include links($white);
+		margin-top:-3.3rem;
+		}
+	h2{
+			@include josefin(1.8rem);
+		  color:$white;
+			//padding-left:0.5rem;
+
+		}
+	@include border ($red);
+	.field-type-text-with-summary{
+	margin-top:$blockspace;
+	}
+}
+#e2014-FAQ-list-frontpage{
+	margin-bottom: 6rem;
+	.pane-title{
+		@include links($white);
+		margin-top:-3.3rem;
+		}
+		h2{
+			@include josefin(1.8rem);
+		  color:$white;
+			//padding-left:0.5rem;
+		}
+	@include border ($blue);
+	.view-display-id-faq_recent{
+		padding-top: $blockspace;
+	}
+	.views-field-title{
+		@include josefin-semi(1.4rem);
+		@include links($black);
+	}
+}
+#e2014-akt-front{
+	margin-bottom: 2rem;	
+	.pane-title{
+		@include links($white);
+		margin-top:-3.3rem;
+		}
+		h2{
+			@include josefin(1.8rem);
+		  color:$white;
+			//padding-left:0.5rem;
+		}
+	@include border ($green);
+	.view-display-id-block{
+		padding-top:$blockspace;
+	}
+	.views-field-title{
+		@include josefin-semi(1.4rem);
+		@include links($black);
+	}
+}
+#e2014-basispage-list{
+	margin-bottom: 2rem;	
+	.pane-title{
+		@include links($white);
+		margin-top:-3.3rem;
+		}
+		h2{
+			@include josefin(1.8rem);
+		  color:$white;
+			//padding-left:0.5rem;
+		}
+	@include border ($blue);
+	.view-id-basis_page_teaser{
+		padding-top:$blockspace;
+	}
+	.views-field-title{
+		@include josefin-semi(1.4rem);
+		@include links($black);
+	}
+}
+/*----------------------------------------------------
+				Content types E2014
+----------------------------------------------------*/
+
+.field-name-title{
+		@include josefin-semi(2.3rem);
+}
+.field-name-field-art-main-image{
+	padding-top: 1.4rem;
+}
+.field-name-field-fotograf{
+	padding-bottom: 1rem;
+	margin-top:-0.7rem;
+}
+#e2014-front{}
+#columns{
+	@include layout-page;
+}
+
+#content{
+	@include josefin(1.3rem);
+	line-height:160%;
+}
+
+.field-name-field-fotograf{
+
+}
+.e2014-left-wrapper-article{
+	margin-top:-2.5rem;
+}
+.e2014-article-center-reg{
+	@include break-center;
+	min-height:100px;
+
+}
+.e2014-article-right-reg{
+
+}
+.e2014-article-right-col{
+	margin-top:1rem;
+	@include hidde-sidebar;
+	margin-left:1%;
+	min-width:33%;
+	min-height:800px;
+	//background-color:$green;
+	img{
+		width:100%;
+	}
+}

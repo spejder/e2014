@@ -1,0 +1,202 @@
+//----------------------------------------------------
+//				Breakpoints
+//----------------------------------------------------
+
+$break-max:1440px;
+$break-medium:1280px;
+$break-tablet:max-width 1024px;
+$break-small-screen:min-width 982px;
+$break-tablet-land:(max-width 1024px) (orientation landscape);
+$break-tablet-port:(max-width 981px) ;
+$break-mobile-port:(max-width 981px) ;
+
+@mixin hidde-sidebar{
+  @include breakpoint($break-tablet-land) {
+  display: none;
+  }
+@include breakpoint($break-tablet-port) {
+  display: none;
+  }
+}
+@mixin hidde-center{
+  @include breakpoint($break-medium) {
+  display: none;
+  }
+@include breakpoint($break-max) {
+  display: none;
+  }
+}
+//0=3
+@mixin break-line{
+  width:100%/3;
+  float:left;
+}
+@mixin break-line-last{
+  width:100%/3;
+ float:right; 
+}
+//breaks 2=1
+@mixin break-split-wrapper{
+  @include breakpoint($break-mobile-port){
+  width:100%;
+ }
+}
+@mixin break-split{
+  @include breakpoint($break-mobile-port) {
+  width:50%;
+ }
+}
+@mixin break-split-last{
+  @include breakpoint($break-mobile-port) {
+  width:100%;
+ }
+}
+@mixin break-split-wrapper{
+  @include breakpoint($break-tablet){
+  width:100%;
+ }
+}
+@mixin break-split{
+  @include breakpoint($break-tablet) {
+  width:50%;
+ }
+}
+@mixin break-split-last{
+  @include breakpoint($break-tablet) {
+  width:100%;
+ }
+}
+//breaks 3=0
+@mixin break-center{
+  @include breakpoint($break-mobile-port) {
+  width:100%;
+  float:left;
+ }
+}
+
+//----------------------------------------------------
+//				Color
+//----------------------------------------------------
+// Colors in colorscheme 
+$black:rgba(0, 0, 0, 1);
+$white:rgba(255, 255, 241, 1);
+
+$blue:rgba(60, 71, 175, 1);
+$green:rgba(143, 143, 14, 1);
+$yellow:rgba(222, 148, 15, 1);
+$red:rgba(176, 29, 39, 1);
+//color: transparentize(($black), 0.5); -> color: rgba(0, 0, 0, 0.5);
+
+
+//----------------------------------------------------
+//				fonts
+//----------------------------------------------------
+@mixin josefin ($font-size){
+  font: {
+    family: 'Josefin Sans', sans-serif;
+    weight:400;
+    size:$font-size;
+  }
+  
+}
+@mixin josefin-semi ($font-size){
+  font: {
+    family: 'Josefin Sans', sans-serif;
+    weight:600;
+    size:$font-size;
+  }
+}
+@mixin josefin-bold($font-size){
+  font: {
+    family: 'Josefin Sans', sans-serif;
+    weight:700;
+    size:$font-size;
+  }
+}
+@mixin josefin-light ($font-size){
+  font: {
+    family: 'Josefin Sans', sans-serif;
+ 	weight:300;
+  size:$font-size;
+  }
+}
+//----------------------------------------------------
+//        links
+//----------------------------------------------------
+// Links global
+a{
+  color:$black;
+  &:link{
+    text-decoration:none;
+  }
+  &:visited{
+    text-decoration:none;
+  }
+  &:hover{
+    text-decoration:none;
+  }
+   &:active{
+    text-decoration:none;
+  }
+}
+@mixin links($linkcolor){
+a{
+  color:$linkcolor;
+  &:link{
+    text-decoration:none;
+    color:$linkcolor;
+  }
+  &:visited{
+    text-decoration:none;
+    color:$linkcolor;
+  }
+  &:hover{
+    text-decoration:none;
+    color: transparentize(($linkcolor), 0.5); 
+  }
+   &:active{
+    text-decoration:none;
+    color:$linkcolor;
+  }
+}
+}
+
+//Main Menu
+@mixin menulink{
+a{
+  &:link{
+    text-decoration:none;
+  }
+  &:visited{
+    text-decoration:none;
+  }
+  &:hover{
+    text-decoration:none;
+    @include josefin-semi(1em);
+    color: transparentize(($black), 0.5); 
+  }
+   &:active{
+    text-decoration:none;
+  }
+}
+}
+//----------------------------------------------------
+//        layout
+//----------------------------------------------------
+$blockspace:4rem; // Space between block/pane title and content when shown on frontpage.
+
+@mixin layout-page{
+  padding-left:1%;
+  padding-right:1%;
+  padding-top:2rem;
+}
+
+@mixin border ($bordercolor){
+  border-top: 2.7rem;
+  border-bottom: 2.7rem;
+  border-left: 0.1rem;
+  border-right: 0.1rem;
+  border-color: $bordercolor;
+  border-style: solid;
+  padding: 1rem;
+}
