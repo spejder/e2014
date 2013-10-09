@@ -153,7 +153,7 @@ form{
 ----------------------------------------------------*/
 // Footer for page
 .region-footer{
-	height:200px;
+	height:2rem;
 	//@include background-image(linear-gradient($green,$white));
 	background-color: transparentize(($green), 0.1);
 	
@@ -213,9 +213,12 @@ form{
 .view-frontpage-news{
 	@include border ($yellow);
 }
+
+
 #e2014-newslist{
 	h2{
 			padding-left:1rem;
+			margin-top: -4.55rem; //hæver nyheds blok til niveau
 		}
 	.block-title{
 		color:$red;

@@ -248,7 +248,7 @@ form label {
 ----------------------------------------------------*/
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/CCOS\/webdevelopment\/e2014\/sites\/all\/themes\/adaptivetheme\/e2014\/sass\/e2014\.scss}line{font-family:\00003155}}
 .region-footer {
-  height: 200px;
+  height: 2rem;
   background-color: rgba(143, 143, 14, 0.9);
 }
 
@@ -393,34 +393,35 @@ form label {
   padding: 1rem;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/CCOS\/webdevelopment\/e2014\/sites\/all\/themes\/adaptivetheme\/e2014\/sass\/e2014\.scss}line{font-family:\00003217}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/CCOS\/webdevelopment\/e2014\/sites\/all\/themes\/adaptivetheme\/e2014\/sass\/e2014\.scss}line{font-family:\00003219}}
 #e2014-newslist h2 {
   padding-left: 1rem;
+  margin-top: -4.55rem;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/CCOS\/webdevelopment\/e2014\/sites\/all\/themes\/adaptivetheme\/e2014\/sass\/e2014\.scss}line{font-family:\00003220}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/CCOS\/webdevelopment\/e2014\/sites\/all\/themes\/adaptivetheme\/e2014\/sass\/e2014\.scss}line{font-family:\00003223}}
 #e2014-newslist .block-title {
   color: #b01d27;
 }
 
 @media (min-width: 1280px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/CCOS\/webdevelopment\/e2014\/sites\/all\/themes\/adaptivetheme\/e2014\/sass\/e2014\.scss}line{font-family:\00003224}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/CCOS\/webdevelopment\/e2014\/sites\/all\/themes\/adaptivetheme\/e2014\/sass\/e2014\.scss}line{font-family:\00003227}}
   .e2014-newslist-hidde {
     display: none;
   }
 }
 @media (min-width: 1440px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/CCOS\/webdevelopment\/e2014\/sites\/all\/themes\/adaptivetheme\/e2014\/sass\/e2014\.scss}line{font-family:\00003224}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/CCOS\/webdevelopment\/e2014\/sites\/all\/themes\/adaptivetheme\/e2014\/sass\/e2014\.scss}line{font-family:\00003227}}
   .e2014-newslist-hidde {
     display: none;
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/CCOS\/webdevelopment\/e2014\/sites\/all\/themes\/adaptivetheme\/e2014\/sass\/e2014\.scss}line{font-family:\00003227}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/CCOS\/webdevelopment\/e2014\/sites\/all\/themes\/adaptivetheme\/e2014\/sass\/e2014\.scss}line{font-family:\00003230}}
 .pane-title {
   margin-bottom: -2.5rem;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/CCOS\/webdevelopment\/e2014\/sites\/all\/themes\/adaptivetheme\/e2014\/sass\/e2014\.scss}line{font-family:\00003232}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/CCOS\/webdevelopment\/e2014\/sites\/all\/themes\/adaptivetheme\/e2014\/sass\/e2014\.scss}line{font-family:\00003235}}
 #e2014-signup {
   margin-bottom: 2rem;
   border-top: 2.7rem;
@@ -431,7 +432,7 @@ form label {
   border-style: solid;
   padding: 1rem;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/CCOS\/webdevelopment\/e2014\/sites\/all\/themes\/adaptivetheme\/e2014\/sass\/e2014\.scss}line{font-family:\00003234}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/CCOS\/webdevelopment\/e2014\/sites\/all\/themes\/adaptivetheme\/e2014\/sass\/e2014\.scss}line{font-family:\00003237}}
 #e2014-signup .pane-title {
   margin-top: -3.3rem;
 }
@@ -459,19 +460,19 @@ form label {
   text-decoration: none;
   color: #fffff1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/CCOS\/webdevelopment\/e2014\/sites\/all\/themes\/adaptivetheme\/e2014\/sass\/e2014\.scss}line{font-family:\00003238}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/CCOS\/webdevelopment\/e2014\/sites\/all\/themes\/adaptivetheme\/e2014\/sass\/e2014\.scss}line{font-family:\00003241}}
 #e2014-signup h2 {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 400;
   font-size: 1.8rem;
   color: #fffff1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/CCOS\/webdevelopment\/e2014\/sites\/all\/themes\/adaptivetheme\/e2014\/sass\/e2014\.scss}line{font-family:\00003245}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/CCOS\/webdevelopment\/e2014\/sites\/all\/themes\/adaptivetheme\/e2014\/sass\/e2014\.scss}line{font-family:\00003248}}
 #e2014-signup .field-type-text-with-summary {
   margin-top: 4rem;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/CCOS\/webdevelopment\/e2014\/sites\/all\/themes\/adaptivetheme\/e2014\/sass\/e2014\.scss}line{font-family:\00003249}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/CCOS\/webdevelopment\/e2014\/sites\/all\/themes\/adaptivetheme\/e2014\/sass\/e2014\.scss}line{font-family:\00003252}}
 #e2014-FAQ-list-frontpage {
   margin-bottom: 6rem;
   border-top: 2.7rem;
@@ -482,7 +483,7 @@ form label {
   border-style: solid;
   padding: 1rem;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/CCOS\/webdevelopment\/e2014\/sites\/all\/themes\/adaptivetheme\/e2014\/sass\/e2014\.scss}line{font-family:\00003251}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/CCOS\/webdevelopment\/e2014\/sites\/all\/themes\/adaptivetheme\/e2014\/sass\/e2014\.scss}line{font-family:\00003254}}
 #e2014-FAQ-list-frontpage .pane-title {
   margin-top: -3.3rem;
 }
@@ -510,18 +511,18 @@ form label {
   text-decoration: none;
   color: #fffff1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/CCOS\/webdevelopment\/e2014\/sites\/all\/themes\/adaptivetheme\/e2014\/sass\/e2014\.scss}line{font-family:\00003255}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/CCOS\/webdevelopment\/e2014\/sites\/all\/themes\/adaptivetheme\/e2014\/sass\/e2014\.scss}line{font-family:\00003258}}
 #e2014-FAQ-list-frontpage h2 {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 400;
   font-size: 1.8rem;
   color: #fffff1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/CCOS\/webdevelopment\/e2014\/sites\/all\/themes\/adaptivetheme\/e2014\/sass\/e2014\.scss}line{font-family:\00003261}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/CCOS\/webdevelopment\/e2014\/sites\/all\/themes\/adaptivetheme\/e2014\/sass\/e2014\.scss}line{font-family:\00003264}}
 #e2014-FAQ-list-frontpage .view-display-id-faq_recent {
   padding-top: 4rem;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/CCOS\/webdevelopment\/e2014\/sites\/all\/themes\/adaptivetheme\/e2014\/sass\/e2014\.scss}line{font-family:\00003264}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/CCOS\/webdevelopment\/e2014\/sites\/all\/themes\/adaptivetheme\/e2014\/sass\/e2014\.scss}line{font-family:\00003267}}
 #e2014-FAQ-list-frontpage .views-field-title {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 600;
@@ -552,7 +553,7 @@ form label {
   color: black;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/CCOS\/webdevelopment\/e2014\/sites\/all\/themes\/adaptivetheme\/e2014\/sass\/e2014\.scss}line{font-family:\00003269}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/CCOS\/webdevelopment\/e2014\/sites\/all\/themes\/adaptivetheme\/e2014\/sass\/e2014\.scss}line{font-family:\00003272}}
 #e2014-akt-front {
   margin-bottom: 2rem;
   border-top: 2.7rem;
@@ -563,7 +564,7 @@ form label {
   border-style: solid;
   padding: 1rem;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/CCOS\/webdevelopment\/e2014\/sites\/all\/themes\/adaptivetheme\/e2014\/sass\/e2014\.scss}line{font-family:\00003271}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/CCOS\/webdevelopment\/e2014\/sites\/all\/themes\/adaptivetheme\/e2014\/sass\/e2014\.scss}line{font-family:\00003274}}
 #e2014-akt-front .pane-title {
   margin-top: -3.3rem;
 }
@@ -591,18 +592,18 @@ form label {
   text-decoration: none;
   color: #fffff1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/CCOS\/webdevelopment\/e2014\/sites\/all\/themes\/adaptivetheme\/e2014\/sass\/e2014\.scss}line{font-family:\00003275}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/CCOS\/webdevelopment\/e2014\/sites\/all\/themes\/adaptivetheme\/e2014\/sass\/e2014\.scss}line{font-family:\00003278}}
 #e2014-akt-front h2 {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 400;
   font-size: 1.8rem;
   color: #fffff1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/CCOS\/webdevelopment\/e2014\/sites\/all\/themes\/adaptivetheme\/e2014\/sass\/e2014\.scss}line{font-family:\00003281}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/CCOS\/webdevelopment\/e2014\/sites\/all\/themes\/adaptivetheme\/e2014\/sass\/e2014\.scss}line{font-family:\00003284}}
 #e2014-akt-front .view-display-id-block {
   padding-top: 4rem;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/CCOS\/webdevelopment\/e2014\/sites\/all\/themes\/adaptivetheme\/e2014\/sass\/e2014\.scss}line{font-family:\00003284}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/CCOS\/webdevelopment\/e2014\/sites\/all\/themes\/adaptivetheme\/e2014\/sass\/e2014\.scss}line{font-family:\00003287}}
 #e2014-akt-front .views-field-title {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 600;
@@ -633,7 +634,7 @@ form label {
   color: black;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/CCOS\/webdevelopment\/e2014\/sites\/all\/themes\/adaptivetheme\/e2014\/sass\/e2014\.scss}line{font-family:\00003289}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/CCOS\/webdevelopment\/e2014\/sites\/all\/themes\/adaptivetheme\/e2014\/sass\/e2014\.scss}line{font-family:\00003292}}
 #e2014-basispage-list {
   margin-bottom: 2rem;
   border-top: 2.7rem;
@@ -644,7 +645,7 @@ form label {
   border-style: solid;
   padding: 1rem;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/CCOS\/webdevelopment\/e2014\/sites\/all\/themes\/adaptivetheme\/e2014\/sass\/e2014\.scss}line{font-family:\00003291}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/CCOS\/webdevelopment\/e2014\/sites\/all\/themes\/adaptivetheme\/e2014\/sass\/e2014\.scss}line{font-family:\00003294}}
 #e2014-basispage-list .pane-title {
   margin-top: -3.3rem;
 }
@@ -672,18 +673,18 @@ form label {
   text-decoration: none;
   color: #fffff1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/CCOS\/webdevelopment\/e2014\/sites\/all\/themes\/adaptivetheme\/e2014\/sass\/e2014\.scss}line{font-family:\00003295}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/CCOS\/webdevelopment\/e2014\/sites\/all\/themes\/adaptivetheme\/e2014\/sass\/e2014\.scss}line{font-family:\00003298}}
 #e2014-basispage-list h2 {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 400;
   font-size: 1.8rem;
   color: #fffff1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/CCOS\/webdevelopment\/e2014\/sites\/all\/themes\/adaptivetheme\/e2014\/sass\/e2014\.scss}line{font-family:\00003301}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/CCOS\/webdevelopment\/e2014\/sites\/all\/themes\/adaptivetheme\/e2014\/sass\/e2014\.scss}line{font-family:\00003304}}
 #e2014-basispage-list .view-id-basis_page_teaser {
   padding-top: 4rem;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/CCOS\/webdevelopment\/e2014\/sites\/all\/themes\/adaptivetheme\/e2014\/sass\/e2014\.scss}line{font-family:\00003304}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/CCOS\/webdevelopment\/e2014\/sites\/all\/themes\/adaptivetheme\/e2014\/sass\/e2014\.scss}line{font-family:\00003307}}
 #e2014-basispage-list .views-field-title {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 600;
@@ -717,32 +718,32 @@ form label {
 /*----------------------------------------------------
 				Content types E2014
 ----------------------------------------------------*/
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/CCOS\/webdevelopment\/e2014\/sites\/all\/themes\/adaptivetheme\/e2014\/sass\/e2014\.scss}line{font-family:\00003313}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/CCOS\/webdevelopment\/e2014\/sites\/all\/themes\/adaptivetheme\/e2014\/sass\/e2014\.scss}line{font-family:\00003316}}
 .field-name-title {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 600;
   font-size: 2.3rem;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/CCOS\/webdevelopment\/e2014\/sites\/all\/themes\/adaptivetheme\/e2014\/sass\/e2014\.scss}line{font-family:\00003316}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/CCOS\/webdevelopment\/e2014\/sites\/all\/themes\/adaptivetheme\/e2014\/sass\/e2014\.scss}line{font-family:\00003319}}
 .field-name-field-art-main-image {
   padding-top: 1.4rem;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/CCOS\/webdevelopment\/e2014\/sites\/all\/themes\/adaptivetheme\/e2014\/sass\/e2014\.scss}line{font-family:\00003319}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/CCOS\/webdevelopment\/e2014\/sites\/all\/themes\/adaptivetheme\/e2014\/sass\/e2014\.scss}line{font-family:\00003322}}
 .field-name-field-fotograf {
   padding-bottom: 1rem;
   margin-top: -0.7rem;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/CCOS\/webdevelopment\/e2014\/sites\/all\/themes\/adaptivetheme\/e2014\/sass\/e2014\.scss}line{font-family:\00003324}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/CCOS\/webdevelopment\/e2014\/sites\/all\/themes\/adaptivetheme\/e2014\/sass\/e2014\.scss}line{font-family:\00003327}}
 #columns {
   padding-left: 1%;
   padding-right: 1%;
   padding-top: 2rem;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/CCOS\/webdevelopment\/e2014\/sites\/all\/themes\/adaptivetheme\/e2014\/sass\/e2014\.scss}line{font-family:\00003328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/CCOS\/webdevelopment\/e2014\/sites\/all\/themes\/adaptivetheme\/e2014\/sass\/e2014\.scss}line{font-family:\00003331}}
 #content {
   font-family: 'Josefin Sans', sans-serif;
   font-weight: 400;
@@ -750,24 +751,24 @@ form label {
   line-height: 160%;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/CCOS\/webdevelopment\/e2014\/sites\/all\/themes\/adaptivetheme\/e2014\/sass\/e2014\.scss}line{font-family:\00003336}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/CCOS\/webdevelopment\/e2014\/sites\/all\/themes\/adaptivetheme\/e2014\/sass\/e2014\.scss}line{font-family:\00003339}}
 .e2014-left-wrapper-article {
   margin-top: -2.5rem;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/CCOS\/webdevelopment\/e2014\/sites\/all\/themes\/adaptivetheme\/e2014\/sass\/e2014\.scss}line{font-family:\00003339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/CCOS\/webdevelopment\/e2014\/sites\/all\/themes\/adaptivetheme\/e2014\/sass\/e2014\.scss}line{font-family:\00003342}}
 .e2014-article-center-reg {
   min-height: 100px;
 }
 @media (max-width: 981px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/CCOS\/webdevelopment\/e2014\/sites\/all\/themes\/adaptivetheme\/e2014\/sass\/e2014\.scss}line{font-family:\00003339}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/CCOS\/webdevelopment\/e2014\/sites\/all\/themes\/adaptivetheme\/e2014\/sass\/e2014\.scss}line{font-family:\00003342}}
   .e2014-article-center-reg {
     width: 100%;
     float: left;
   }
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/CCOS\/webdevelopment\/e2014\/sites\/all\/themes\/adaptivetheme\/e2014\/sass\/e2014\.scss}line{font-family:\00003347}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/CCOS\/webdevelopment\/e2014\/sites\/all\/themes\/adaptivetheme\/e2014\/sass\/e2014\.scss}line{font-family:\00003350}}
 .e2014-article-right-col {
   margin-top: 1rem;
   margin-left: 1%;
@@ -775,18 +776,18 @@ form label {
   min-height: 800px;
 }
 @media (max-width: 1024px) and (orientation: landscape) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/CCOS\/webdevelopment\/e2014\/sites\/all\/themes\/adaptivetheme\/e2014\/sass\/e2014\.scss}line{font-family:\00003347}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/CCOS\/webdevelopment\/e2014\/sites\/all\/themes\/adaptivetheme\/e2014\/sass\/e2014\.scss}line{font-family:\00003350}}
   .e2014-article-right-col {
     display: none;
   }
 }
 @media (max-width: 981px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/CCOS\/webdevelopment\/e2014\/sites\/all\/themes\/adaptivetheme\/e2014\/sass\/e2014\.scss}line{font-family:\00003347}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/CCOS\/webdevelopment\/e2014\/sites\/all\/themes\/adaptivetheme\/e2014\/sass\/e2014\.scss}line{font-family:\00003350}}
   .e2014-article-right-col {
     display: none;
   }
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/CCOS\/webdevelopment\/e2014\/sites\/all\/themes\/adaptivetheme\/e2014\/sass\/e2014\.scss}line{font-family:\00003354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/CCOS\/webdevelopment\/e2014\/sites\/all\/themes\/adaptivetheme\/e2014\/sass\/e2014\.scss}line{font-family:\00003357}}
 .e2014-article-right-col img {
   width: 100%;
 }
